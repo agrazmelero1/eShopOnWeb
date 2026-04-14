@@ -5,11 +5,11 @@ on: workflow_dispatch
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-eshoponweb-region1
-  LOCATION: germanywestcentral
+  RESOURCE-GROUP: rg-eshoponweb-region2
+  LOCATION: qatarcentral
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 3da128d7-2e38-4925-8457-eb1cddc80538
-  WEBAPP-NAME: devops-webapp-region1-60871668
+  WEBAPP-NAME: devops-webapp-region2-60871668
 
 jobs:
   #Build, test and publish .net web project in repository
